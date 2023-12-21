@@ -311,12 +311,12 @@ p{
     margin-top: 50px;
 }
 #services .services-item{
-    flex-basis: 80%;
     display: flex;
+    flex-basis: 80%;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    padding: 30px;
+    padding: 50px;
     border-radius: 10px;
     background-image: url(../../img/laptoppp.jpg);
     background-size: cover;
@@ -645,9 +645,13 @@ button[type="submit"]:hover {
     /* end hero */
 
     /* service section */
+    #services .service-bottom {
+    flex-wrap: nowrap; 
+    }
+
     #services .service-bottom .services-item{
-        flex-basis: 45%;
-        margin: 2.5%;
+        flex-basis: 50%;
+        margin: 1.5%;
     }
     /* end service section */
 
